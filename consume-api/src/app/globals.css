@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+body {
+	background-image: url('/img001.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: inherit;
+	background-attachment: fixed;
+}
+
+
+
+header {
+	width: 70%;
+	padding: 10px 20px 10px 20px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	color: #fff;
+	margin: auto;
+	box-shadow: rgba(0, 0, 0, 0.22) 0px 0px 30px 10px;
+	
+}
+main {
+	width: 70%;
+	min-height: 100vh;
+	background-color: #2f3033da;
+	justify-content: center;
+	color: white;
+	align-items: center;
+	margin: auto;
+	
+}
+
+header img {
+	height: 70px;
+}
+
+ul {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+
+li {
+	list-style: none;
+	padding: 0 0px 0 20px;
+}
+
+a {
+	text-decoration: none;
+	font-size: larger;
+	font-weight: 400;
+	color: #fff;
+	transition: 0.5s;
+}
+
+
+
+
+.footer {
+	background-color: #050508;
+	position: block;
+	bottom: 0;
+	color: #fff;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin: auto;
+}
+
+.navbar-brand {
+	padding: 10px 0px 0px 10px;
+	color: #ffffff;
+
+
+}
+
+.navbar-brand:hover {
+	color: rgb(127, 180, 223);
+	/* Change the color of the logo text to white when hovering */
+	transform: scale(1.2);
+	/* Optional: Increase the size of the logo when hovering */
+	
+	/* Optional: Add a shadow effect when hovering */
+	transition: transform 0.5s ease;
+}
+
+.navbar .nav-link {
+
+	color: rgb(127, 180, 223);
+
+}
